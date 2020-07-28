@@ -1,4 +1,4 @@
-import * as Emoji from './index.cjs';
+import * as Emoji from './icons.js';
 import React from 'react';
 
 export default function reactReplaceEmojis(reactChild, options) {

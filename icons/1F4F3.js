@@ -1,0 +1,156 @@
+import React from 'react';
+
+const VibrationMode = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#9b9b9a",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.7892,60H22.2108c-0.4616,0-0.8357-0.3741-0.8357-0.8357V12.3645c0-0.4616,0.3741-0.8357,0.8357-0.8357h27.5784 c0.4616,0,0.8357,0.3741,0.8357,0.8357v46.7998C50.6249,59.6259,50.2508,60,49.7892,60z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#d0cfce",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M46.0569,51.8398H25.9431c-0.4459,0-0.8074-0.3614-0.8074-0.8074V17.5473c0-0.4459,0.3614-0.8074,0.8074-0.8074h20.1137 c0.4459,0,0.8074,0.3614,0.8074,0.8074v33.4851C46.8642,51.4783,46.5028,51.8398,46.0569,51.8398z"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "#FFFFFF",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "31.8214,14.2328 40.1786,14.2328 40.1786,14.2328 31.8214,14.2328"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "hair"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin-shadow"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("polyline", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "60.9978,12 54.9993,19.9997 60.9978,27.9995 54.9993,35.9992 55.0058,35.9977 61,44.0005 54.9971,51.9972 60.9912,60"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "10.9993,60 16.9978,52.0003 10.9993,44.0005 16.9978,36.0008 16.9912,36.0023 10.9971,27.9995 17,20.0028 11.0058,12"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.7892,60H22.2108c-0.4616,0-0.8357-0.3741-0.8357-0.8357V12.3645c0-0.4616,0.3741-0.8357,0.8357-0.8357h27.5784 c0.4616,0,0.8357,0.3741,0.8357,0.8357v46.7998C50.6249,59.6259,50.2508,60,49.7892,60z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M46.0569,51.8398H25.9431c-0.4459,0-0.8074-0.3614-0.8074-0.8074V17.5473c0-0.4459,0.3614-0.8074,0.8074-0.8074h20.1137 c0.4459,0,0.8074,0.3614,0.8074,0.8074v33.4851C46.8642,51.4783,46.5028,51.8398,46.0569,51.8398z"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "36",
+      cy: "56.0183",
+      r: "1.6714",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "31.8214,14.2328 40.1786,14.2328 40.1786,14.2328 31.8214,14.2328"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("polyline", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "60.9978,12 54.9993,19.9997 60.9978,27.9995 54.9993,35.9992 55.0058,35.9977 61,44.0005 54.9971,51.9972 60.9912,60"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "10.9993,60 16.9978,52.0003 10.9993,44.0005 16.9978,36.0008 16.9912,36.0023 10.9971,27.9995 17,20.0028 11.0058,12"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.7892,60H22.2108c-0.4616,0-0.8357-0.3741-0.8357-0.8357V12.3645c0-0.4616,0.3741-0.8357,0.8357-0.8357h27.5784 c0.4616,0,0.8357,0.3741,0.8357,0.8357v46.7998C50.6249,59.6259,50.2508,60,49.7892,60z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M46.0569,51.8398H25.9431c-0.4459,0-0.8074-0.3614-0.8074-0.8074V17.5473c0-0.4459,0.3614-0.8074,0.8074-0.8074h20.1137 c0.4459,0,0.8074,0.3614,0.8074,0.8074v33.4851C46.8642,51.4783,46.5028,51.8398,46.0569,51.8398z"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "36",
+      cy: "56.0183",
+      r: "1.6714",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "31.8214,14.2328 40.1786,14.2328 40.1786,14.2328 31.8214,14.2328"
+    })));
+  }
+};
+
+export default VibrationMode;

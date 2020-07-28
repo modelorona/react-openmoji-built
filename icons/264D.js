@@ -1,0 +1,104 @@
+import React from 'react';
+
+const Virgo = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("rect", {
+      x: "12",
+      y: "12",
+      width: "48",
+      height: "48",
+      fill: "#b399c8"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("rect", {
+      x: "12",
+      y: "12",
+      width: "48",
+      height: "48",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m35.23 44.91 0.125-13.68"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m26.31 44.91v-14.03c-0.1453-1.558-0.6264-3.32-2.212-5.754"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m26.31 31.22s0.766-6.485 4.523-6.437 4.405 4.103 4.523 6.437c0.1828-2.264 0.9161-6.54 4.478-6.544 3.562-0.0042 4.31 3.958 4.478 6.544l1.15e-4 13.68c0.3653 2.829 2.394 5.11 3.829 5.112 3.042 0.4881 3.964-9.966 1.124-10.73-3.348-0.5788-5.387 7.691-7.545 13.16"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("rect", {
+      x: "12",
+      y: "12",
+      width: "48",
+      height: "48",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m35.23 44.91 0.125-13.68"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m26.31 44.91v-14.03c-0.1453-1.558-0.6264-3.32-2.212-5.754"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "3",
+      d: "m26.31 31.22s0.766-6.485 4.523-6.437 4.405 4.103 4.523 6.437c0.1828-2.264 0.9161-6.54 4.478-6.544 3.562-0.0042 4.31 3.958 4.478 6.544l1.15e-4 13.68c0.3653 2.829 2.394 5.11 3.829 5.112 3.042 0.4881 3.964-9.966 1.124-10.73-3.348-0.5788-5.387 7.691-7.545 13.16"
+    })));
+  }
+};
+
+export default Virgo;

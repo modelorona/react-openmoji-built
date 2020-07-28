@@ -1,0 +1,88 @@
+import React from 'react';
+
+const StarAndCrescent = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#B399C8",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M45.0001,57c1.9749,0,3.9-0.275,5.7124-0.8C46.5875,59.2249,41.5,61,36,61c-13.8124,0-25-11.1875-25-25s11.1876-25,25-25 c5.5,0,10.5875,1.775,14.7125,4.8C48.9001,15.275,46.975,15,45.0001,15C33.4001,15,24,24.4,24,36C24,47.6,33.4001,57,45.0001,57z"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "#B399C8",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "50.6518,27.8958 53.0244,32.7032 58.3297,33.4741 54.4907,37.2162 55.397,42.5 50.6518,40.0053 45.9066,42.5 46.8129,37.2162 42.9739,33.4741 48.2792,32.7032"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "hair"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin-shadow"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M45.0001,57c1.9749,0,3.9-0.275,5.7124-0.8C46.5875,59.2249,41.5,61,36,61c-13.8124,0-25-11.1875-25-25s11.1876-25,25-25 c5.5,0,10.5875,1.775,14.7125,4.8C48.9001,15.275,46.975,15,45.0001,15C33.4001,15,24,24.4,24,36C24,47.6,33.4001,57,45.0001,57z"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "50.6518,27.8958 53.0244,32.7032 58.3297,33.4741 54.4907,37.2162 55.397,42.5 50.6518,40.0053 45.9066,42.5 46.8129,37.2162 42.9739,33.4741 48.2792,32.7032"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M45.0001,57c1.9749,0,3.9-0.275,5.7124-0.8C46.5875,59.2249,41.5,61,36,61c-13.8124,0-25-11.1875-25-25s11.1876-25,25-25 c5.5,0,10.5875,1.775,14.7125,4.8C48.9001,15.275,46.975,15,45.0001,15C33.4001,15,24,24.4,24,36C24,47.6,33.4001,57,45.0001,57z"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      points: "50.6518,27.8958 53.0244,32.7032 58.3297,33.4741 54.4907,37.2162 55.397,42.5 50.6518,40.0053 45.9066,42.5 46.8129,37.2162 42.9739,33.4741 48.2792,32.7032"
+    })));
+  }
+};
+
+export default StarAndCrescent;

@@ -1,0 +1,183 @@
+import React from 'react';
+
+const Surveillance = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#D0CFCE",
+      d: "M33.1,58h-3c-0.6,0-1-0.4-1-1V37c0-0.6,0.4-1,1-1h3c0.6,0,1,0.4,1,1v20C34.1,57.6,33.6,58,33.1,58z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#9B9B9A",
+      d: "M38.4,35.4c1.7-2.9,0.7-6.5-2.2-8.2s-6.5-0.7-8.2,2.2s-0.7,6.5,2.2,8.2S36.7,38.3,38.4,35.4"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6033",
+      y: "10.0777",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5143 44.8714)",
+      fill: "#FFFFFF"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6019",
+      y: "10.0787",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5158 44.8707)",
+      fill: "#D0CFCE"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      fill: "#9B9B9A",
+      points: "42.1,37.6 42.1,37.6 22.5,14.8 17.5,23.4"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "hair"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin-shadow"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("line", {
+      x1: "30",
+      x2: "30",
+      y1: "36.4",
+      y2: "57",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "34.1",
+      x2: "34.1",
+      y1: "39.4",
+      y2: "57",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M28.8,29.9c-1.3,2.2-0.7,4.9,1.2,6.4"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6033",
+      y: "10.0777",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5143 44.8714)",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6033",
+      y: "10.0777",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5143 44.8714)",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      d: "M52.7,34.5c1.4,0.8,1.9,2.7,1.1,4.1s-2.7,1.9-4.1,1.1L52.7,34.5z"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "color-foreground"
+    }, /*#__PURE__*/React.createElement("path", {
+      id: "xx",
+      fill: "#D22F27",
+      d: "M54.2,37.1c0,1.7-1.4,3-3,3c-0.2,0-0.4,0-0.6-0.1l2.9-5C53.9,35.6,54.2,36.3,54.2,37.1z"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("line", {
+      x1: "30",
+      x2: "30",
+      y1: "36.4",
+      y2: "57",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "34.1",
+      x2: "34.1",
+      y1: "39.4",
+      y2: "57",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M28.8,29.9c-1.3,2.2-0.7,4.9,1.2,6.4"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6033",
+      y: "10.0777",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5143 44.8714)",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "30.6033",
+      y: "10.0777",
+      width: "9.9998",
+      height: "35.9992",
+      transform: "matrix(0.5 -0.866 0.866 0.5 -6.5143 44.8714)",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      d: "M52.7,34.5c1.4,0.8,1.9,2.7,1.1,4.1s-2.7,1.9-4.1,1.1L52.7,34.5z"
+    })));
+  }
+};
+
+export default Surveillance;

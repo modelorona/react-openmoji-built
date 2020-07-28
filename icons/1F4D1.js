@@ -1,0 +1,271 @@
+import React from 'react';
+
+const BookmarkTabs = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#fff",
+      stroke: "#fff",
+      strokeLinejoin: "round",
+      strokeWidth: "2",
+      d: "m14.85 64.04 0.05537-5.257-5.343-0.03324v-50.79h28.89l5.287 5.291h11.3v50.79z"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.057 0 0 1.058 -8.414 -4.737)",
+      fill: "#d0cfce",
+      strokeWidth: "0.9454",
+      points: "54.92 23 44 11.65 44 23"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.057 0 0 1.058 -8.414 -4.737)",
+      fill: "#92d3f5",
+      strokeWidth: "0.9454",
+      points: "59.55 29.04 67 29.04 67 34 59.55 34 57.71 31.52"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.057 0 0 1.058 -8.414 -4.737)",
+      fill: "#ea5a47",
+      strokeWidth: "0.9454",
+      points: "54.55 48 62 48 62 52.96 54.55 52.96 52.71 50.48"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "60 28.75 60 17 49.32 17"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "55.06",
+      x2: "55.06",
+      y1: "45.53",
+      y2: "31.68",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "22 63.09 22 65 60 65 60 53.33"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "55 48 55 22.68 44.32 12 17 12 17 60 55 60 55 53"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "55 23 44.3 23 44.32 12"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "59.55 34 57.71 31.52 59.55 29.04 67 29.04 67 34"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "54.55 52.96 52.71 50.48 54.55 48 62 48 62 52.96"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "30.71",
+      y1: "17.48",
+      y2: "17.48",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "25.94",
+      y2: "25.94",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "33.35",
+      y2: "33.35",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "41.82",
+      y2: "41.82",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "50.29",
+      y2: "50.29",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "60 28.75 60 17 49.32 17"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "55.06",
+      x2: "55.06",
+      y1: "45.53",
+      y2: "31.68",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "22 63.09 22 65 60 65 60 53.33"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "55 48 55 22.68 44.32 12 17 12 17 60 55 60 55 53"
+    }), /*#__PURE__*/React.createElement("polyline", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "55 23 44.3 23 44.32 12"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "59.55 34 57.71 31.52 59.55 29.04 67 29.04 67 34"
+    }), /*#__PURE__*/React.createElement("polygon", {
+      transform: "matrix(1.059 0 0 1.058 -8.462 -4.752)",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.889",
+      points: "54.55 52.96 52.71 50.48 54.55 48 62 48 62 52.96"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "30.71",
+      y1: "17.48",
+      y2: "17.48",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "25.94",
+      y2: "25.94",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "33.35",
+      y2: "33.35",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "41.82",
+      y2: "41.82",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "15.89",
+      x2: "43.41",
+      y1: "50.29",
+      y2: "50.29",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    })));
+  }
+};
+
+export default BookmarkTabs;

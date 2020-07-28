@@ -1,0 +1,73 @@
+import React from 'react';
+
+const Wheelbarrow = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("polygon", {
+      transform: "translate(-14.66 -27.73) scale(1.444)",
+      fill: "#5c9e31",
+      strokeWidth: "0.6925",
+      points: "24.74 38.44 25.9 38.71 25.93 46.23 42.45 53.93 54.88 42.11 24.74 37.1"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "line",
+      fill: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }, /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m7.95 20.5 9.409 4.316 1.505 12.74 35.49 17.15"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m19.99 38.31s-0.6416 14.85-0.1209 16.16c0.4215 1.06 4.497 2.403 5.832 0.8481 1.466-1.708 4.697-12.84 4.697-12.84"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m59.66 54.71a5.302 5.392 0 0 1-5.302 5.392 5.302 5.392 0 0 1-5.302-5.392 5.302 5.392 0 0 1 5.302-5.392 5.302 5.392 0 0 1 5.302 5.392"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m64.05 33.49-42.22-7.064v1.892l1.628 0.379 0.03923 10.6 23.14 10.85z"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line",
+      fill: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }, /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m7.95 20.5 9.409 4.316 1.505 12.74 35.49 17.15"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m19.99 38.31s-0.6416 14.85-0.1209 16.16c0.4215 1.06 4.497 2.403 5.832 0.8481 1.466-1.708 4.697-12.84 4.697-12.84"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m59.66 54.71a5.302 5.392 0 0 1-5.302 5.392 5.302 5.392 0 0 1-5.302-5.392 5.302 5.392 0 0 1 5.302-5.392 5.302 5.392 0 0 1 5.302 5.392"
+    }), /*#__PURE__*/React.createElement("path", {
+      stroke: "#000",
+      d: "m64.05 33.49-42.22-7.064v1.892l1.628 0.379 0.03923 10.6 23.14 10.85z"
+    })));
+  }
+};
+
+export default Wheelbarrow;

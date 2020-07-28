@@ -1,0 +1,113 @@
+import React from 'react';
+
+const CircledHumanFigure = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("circle", {
+      cx: "36",
+      cy: "36",
+      r: "26.68",
+      fill: "#fff",
+      "fill-rule": "evenodd",
+      "paint-order": "normal"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("circle", {
+      cx: "36",
+      cy: "36",
+      r: "26.68",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "4.74",
+      "paint-order": "normal"
+    }), /*#__PURE__*/React.createElement("g", {
+      transform: "translate(12.46 12.26) scale(.6662)"
+    }, /*#__PURE__*/React.createElement("circle", {
+      cx: "35.4",
+      cy: "10.65",
+      r: "2.969",
+      fill: "#000",
+      stroke: "#000",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#000",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.999",
+      d: "m26.37 41.59 0.792-19c0.1444-2.78 2.425-4.969 5.208-5l5.964-5e-5c2.747 0.03103 5.027 2.22 5.172 5l0.792 19z",
+      "paint-order": "normal"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#000",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2",
+      d: "m40.37 23.59 1.9 38c0.055 1.1-0.575 2-1.4 2a2.076 2.076 0 0 1-1.729-1.987l-2.542-22.03c-0.129-1.093-0.679-1.987-1.229-1.987s-1.103 0.894-1.229 1.987l-2.539 22.03a2.076 2.076 0 0 1-1.729 1.987c-0.825 0-1.455-0.9-1.4-2l1.9-38"
+    }))));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("circle", {
+      cx: "36",
+      cy: "36",
+      r: "26.68",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "4.74",
+      "paint-order": "normal"
+    }), /*#__PURE__*/React.createElement("g", {
+      transform: "translate(12.46 12.26) scale(.6662)"
+    }, /*#__PURE__*/React.createElement("circle", {
+      cx: "35.4",
+      cy: "10.65",
+      r: "2.969",
+      fill: "#000",
+      stroke: "#000",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#000",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "1.999",
+      d: "m26.37 41.59 0.792-19c0.1444-2.78 2.425-4.969 5.208-5l5.964-5e-5c2.747 0.03103 5.027 2.22 5.172 5l0.792 19z",
+      "paint-order": "normal"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#000",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2",
+      d: "m40.37 23.59 1.9 38c0.055 1.1-0.575 2-1.4 2a2.076 2.076 0 0 1-1.729-1.987l-2.542-22.03c-0.129-1.093-0.679-1.987-1.229-1.987s-1.103 0.894-1.229 1.987l-2.539 22.03a2.076 2.076 0 0 1-1.729 1.987c-0.825 0-1.455-0.9-1.4-2l1.9-38"
+    }))));
+  }
+};
+
+export default CircledHumanFigure;

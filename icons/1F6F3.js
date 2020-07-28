@@ -1,0 +1,222 @@
+import React from 'react';
+
+const PassengerShip = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("polyline", {
+      fill: "none",
+      points: "69,48.2353 68,68 4,68 4,48.2353"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#92D3F5",
+      d: "M68,47v21H4V47h1c3,0,9,3,15,3s10-3,16-3s11,3,16,3s7-3,15-3H68z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#3F3F3F",
+      d: "M37.5,10.5v5h-4v-5c0-0.5523,0.4477-1,1-1h2C37.0523,9.5,37.5,9.9477,37.5,10.5z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#FFFFFF",
+      d: "M48.9045,31h-26.809l5.9312-14.8705c0.1516-0.3801,0.5196-0.6295,0.9288-0.6295h13.089 c0.4092,0,0.7772,0.2494,0.9288,0.6295L48.9045,31z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#3F3F3F",
+      d: "M55,34.7485c-8.6667,3.6647-7.2222,21.9045-10.1111,24.653c-2.0799,1.9789-6.4133,3.4815-8.6667,4.1686 c-0.2743,0.0825-0.52,0.1557-0.7222,0.2199c-0.2022-0.0642-0.4479-0.1374-0.7222-0.2199 c-2.2534-0.6871-6.5868-2.1897-8.6667-4.1686C23.2222,56.653,24.6667,38.4132,16,34.7485H55z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#EA5A47",
+      d: "M55,32v2.7485H16V32c0-0.5523,0.4477-1,1-1h37C54.5523,31,55,31.4477,55,32z"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "hair"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin-shadow"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M47.4115,49.3367C48.9598,49.7227,50.4799,50,52,50c5,0,7-3,15-3"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M5,47c3,0,9,3,15,3c1.292,0,2.4913-0.1391,3.6378-0.3574"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M37.5,10.5v5h-4v-5c0-0.5523,0.4477-1,1-1h2C37.0523,9.5,37.5,9.9477,37.5,10.5z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M48.9045,31h-26.809l5.9312-14.8705c0.1516-0.3801,0.5196-0.6295,0.9288-0.6295h13.089c0.4092,0,0.7772,0.2494,0.9288,0.6295 L48.9045,31z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M23.6377,49.6421c-1.0449-5.989-2.7008-12.806-7.6377-14.8936h39c-8.6667,3.6647-7.2222,21.9045-10.1111,24.653 c-2.0799,1.9789-6.4133,3.4815-8.6667,4.1686c-0.2743,0.0825-0.52,0.1557-0.7222,0.2199 c-0.2022-0.0642-0.4479-0.1374-0.7222-0.2199c-2.2534-0.6871-6.5868-2.1897-8.6667-4.1686 C24.8678,58.2187,24.4272,54.1667,23.6377,49.6421"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M55,32v2.7485H16V32c0-0.5523,0.4477-1,1-1h37C54.5523,31,55,31.4477,55,32z"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "35.5",
+      x2: "35.5",
+      y1: "63.79",
+      y2: "32",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "30",
+      x2: "41",
+      y1: "21",
+      y2: "21",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "28",
+      x2: "43",
+      y1: "26",
+      y2: "26",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      version: "1.1",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M47.4115,49.3367C48.9598,49.7227,50.4799,50,52,50c5,0,7-3,15-3"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M5,47c3,0,9,3,15,3c1.292,0,2.4913-0.1391,3.6378-0.3574"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M37.5,10.5v5h-4v-5c0-0.5523,0.4477-1,1-1h2C37.0523,9.5,37.5,9.9477,37.5,10.5z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M48.9045,31h-26.809l5.9312-14.8705c0.1516-0.3801,0.5196-0.6295,0.9288-0.6295h13.089c0.4092,0,0.7772,0.2494,0.9288,0.6295 L48.9045,31z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M23.6377,49.6421c-1.0449-5.989-2.7008-12.806-7.6377-14.8936h39c-8.6667,3.6647-7.2222,21.9045-10.1111,24.653 c-2.0799,1.9789-6.4133,3.4815-8.6667,4.1686c-0.2743,0.0825-0.52,0.1557-0.7222,0.2199 c-0.2022-0.0642-0.4479-0.1374-0.7222-0.2199c-2.2534-0.6871-6.5868-2.1897-8.6667-4.1686 C24.8678,58.2187,24.4272,54.1667,23.6377,49.6421"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M55,32v2.7485H16V32c0-0.5523,0.4477-1,1-1h37C54.5523,31,55,31.4477,55,32z"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "35.5",
+      x2: "35.5",
+      y1: "63.79",
+      y2: "32",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "30",
+      x2: "41",
+      y1: "21",
+      y2: "21",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "28",
+      x2: "43",
+      y1: "26",
+      y2: "26",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    })));
+  }
+};
+
+export default PassengerShip;

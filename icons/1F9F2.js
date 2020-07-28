@@ -1,0 +1,118 @@
+import React from 'react';
+
+const Magnet = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#ea5a47",
+      d: "M43.5,36.5V47a8.5,8.5,0,0,1-17,0V36.5h-6V47a14.5,14.5,0,0,0,29,0V36.5Z"
+    }), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("rect", {
+      x: "20.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "#d0cfce"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "43.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "#d0cfce"
+    })), /*#__PURE__*/React.createElement("path", {
+      fill: "#fcea2b",
+      d: "M44.8818,19.7754a1.283,1.283,0,0,0-1.26-.9072H38.6973l3.4609-7.75a1,1,0,0,0-1.6455-1.0889L29.4214,21.958a1.327,1.327,0,0,0-.2788,1.4512,1.37,1.37,0,0,0,1.2666.85h4.8789l-4.9946,8.05a1.0006,1.0006,0,0,0,.2124,1.2988c.227.1875.38.3145.5717.3145.4,0,.9659-.5567,2.7163-2.2783L44.21,21.3711A1.4519,1.4519,0,0,0,44.8818,19.7754Z"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2",
+      d: "M43.5,36.5V47a8.5,8.5,0,0,1-17,0V36.5h-6V47a14.5,14.5,0,0,0,29,0V36.5Z"
+    }), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("rect", {
+      x: "20.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "43.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    })), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M44.8818,19.7754a1.283,1.283,0,0,0-1.26-.9072H38.6973l3.4609-7.75a1,1,0,0,0-1.6455-1.0889L29.4214,21.958a1.327,1.327,0,0,0-.2788,1.4512,1.37,1.37,0,0,0,1.2666.85h4.8789l-4.9946,8.05a1.0006,1.0006,0,0,0,.2124,1.2988c.227.1875.38.3145.5717.3145.4,0,.9659-.5567,2.7163-2.2783L44.21,21.3711A1.4519,1.4519,0,0,0,44.8818,19.7754Z"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2",
+      d: "M43.5,36.5V47a8.5,8.5,0,0,1-17,0V36.5h-6V47a14.5,14.5,0,0,0,29,0V36.5Z"
+    }), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("rect", {
+      x: "20.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("rect", {
+      x: "43.5",
+      y: "31.5",
+      width: "6",
+      height: "5",
+      fill: "none",
+      stroke: "#000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeWidth: "2"
+    })), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M44.8818,19.7754a1.283,1.283,0,0,0-1.26-.9072H38.6973l3.4609-7.75a1,1,0,0,0-1.6455-1.0889L29.4214,21.958a1.327,1.327,0,0,0-.2788,1.4512,1.37,1.37,0,0,0,1.2666.85h4.8789l-4.9946,8.05a1.0006,1.0006,0,0,0,.2124,1.2988c.227.1875.38.3145.5717.3145.4,0,.9659-.5567,2.7163-2.2783L44.21,21.3711A1.4519,1.4519,0,0,0,44.8818,19.7754Z"
+    })));
+  }
+};
+
+export default Magnet;

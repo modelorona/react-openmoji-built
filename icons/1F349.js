@@ -1,0 +1,227 @@
+import React from 'react';
+
+const Watermelon = ({
+  size,
+  outline
+}) => {
+  if (!size) size = '1.7em';
+
+  if (!outline) {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "color"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "#B1CC33",
+      stroke: "none",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M55.2257,56.7807 c-10.9878,10.9766-28.7798,10.9766-39.7676,0c-10.9765-10.9878-10.9765-28.7797,0-39.7675l2.6542,2.6542 c-9.5258,9.5145-9.5258,24.9447,0,34.4592c9.5145,9.5258,24.9447,9.5258,34.4592,0L55.2257,56.7807z"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#EA5A47",
+      stroke: "#EA5A47",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M52.5715,54.1265c-9.5145,9.5258-24.9447,9.5258-34.4592,0c-9.5258-9.5145-9.5258-24.9447,0-34.4592L52.5715,54.1265"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "#EA5A47",
+      stroke: "none",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.5241,56.7181c-9.5196,6.8373-22.857,5.9734-31.4119-2.5916c-8.6198-8.6097-9.4396-22.0632-2.4594-31.5942"
+    })), /*#__PURE__*/React.createElement("g", {
+      id: "hair"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "skin-shadow"
+    }), /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M55.2257,56.7807 c-10.9878,10.9766-28.7798,10.9766-39.7676,0c-10.9765-10.9878-10.9765-28.7797,0-39.7675l2.6542,2.6542 c-9.5258,9.5145-9.5258,24.9447,0,34.4592c9.5145,9.5258,24.9447,9.5258,34.4592,0L55.2257,56.7807z"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "17.5157",
+      x2: "53.7223",
+      y1: "19.0707",
+      y2: "55.2773",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.5241,56.7181c-9.5196,6.8373-22.857,5.9734-31.4119-2.5916c-8.6198-8.6097-9.4396-22.0632-2.4594-31.5942"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "31.8301",
+      cy: "46.9072",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -23.8456 36.2461)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "44.5541",
+      cy: "53.2691",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -24.6174 47.1066)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "31.8301",
+      cy: "54.8596",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -29.4688 38.5753)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "25.8167",
+      cy: "40.8938",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -21.3547 30.2327)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "19.4548",
+      cy: "28.1698",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -14.2209 22.0073)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "17.8643",
+      cy: "40.8938",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -23.684 24.6094)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "22.2812",
+      cy: "50.0862",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -28.8903 30.4251)",
+      fill: "#000000",
+      stroke: "none"
+    })));
+  } else {
+    return /*#__PURE__*/React.createElement("svg", {
+      width: size,
+      height: size,
+      id: "emoji",
+      viewBox: "0 0 72 72",
+      xmlns: "http://www.w3.org/2000/svg"
+    }, /*#__PURE__*/React.createElement("g", {
+      id: "line"
+    }, /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M55.2257,56.7807 c-10.9878,10.9766-28.7798,10.9766-39.7676,0c-10.9765-10.9878-10.9765-28.7797,0-39.7675l2.6542,2.6542 c-9.5258,9.5145-9.5258,24.9447,0,34.4592c9.5145,9.5258,24.9447,9.5258,34.4592,0L55.2257,56.7807z"
+    }), /*#__PURE__*/React.createElement("line", {
+      x1: "17.5157",
+      x2: "53.7223",
+      y1: "19.0707",
+      y2: "55.2773",
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2"
+    }), /*#__PURE__*/React.createElement("path", {
+      fill: "none",
+      stroke: "#000000",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: "10",
+      strokeWidth: "2",
+      d: "M49.5241,56.7181c-9.5196,6.8373-22.857,5.9734-31.4119-2.5916c-8.6198-8.6097-9.4396-22.0632-2.4594-31.5942"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "31.8301",
+      cy: "46.9072",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -23.8456 36.2461)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "44.5541",
+      cy: "53.2691",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -24.6174 47.1066)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "31.8301",
+      cy: "54.8596",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -29.4688 38.5753)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "25.8167",
+      cy: "40.8938",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -21.3547 30.2327)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "19.4548",
+      cy: "28.1698",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -14.2209 22.0073)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "17.8643",
+      cy: "40.8938",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -23.684 24.6094)",
+      fill: "#000000",
+      stroke: "none"
+    }), /*#__PURE__*/React.createElement("ellipse", {
+      cx: "22.2812",
+      cy: "50.0862",
+      rx: "1.687",
+      ry: "0.8435",
+      transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -28.8903 30.4251)",
+      fill: "#000000",
+      stroke: "none"
+    })));
+  }
+};
+
+export default Watermelon;
